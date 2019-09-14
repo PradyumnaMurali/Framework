@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[pass:title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62328" started-at="2019-09-11T19:32:53Z" finished-at="2019-09-11T19:33:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62328" started-at="2019-09-11T19:32:53Z" finished-at="2019-09-11T19:33:55Z">
+      <class name="Script.S8_Deluser">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:Script.S8_Deluser@1dd92fe2]" name="precondition" is-config="true" duration-ms="24262" started-at="2019-09-12T01:02:53Z" finished-at="2019-09-12T01:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="clickusers()[pri:0, instance:Script.S8_Deluser@1dd92fe2]" name="clickusers" duration-ms="38048" started-at="2019-09-12T01:03:17Z" finished-at="2019-09-12T01:03:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass:title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickusers -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Script.S8_Deluser@1dd92fe2]" name="postcondition" is-config="true" duration-ms="1" started-at="2019-09-12T01:03:55Z" finished-at="2019-09-12T01:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickusers status=SUCCESS method=S8_Deluser.clickusers()[pri:0, instance:Script.S8_Deluser@1dd92fe2] output=pass:title is matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Script.S8_Deluser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
